@@ -1,4 +1,4 @@
-#  AI-Powered Code Review CLI v2.0
+#  AI-Powered Code Review CLI Tool
 
 > **Automated Code Quality Analysis** using **Groq AI** with Structured Output, Security Scanning, and GitHub Actions Integration
 
