@@ -1,0 +1,45 @@
+{
+  "name": "ai-code-reviewer",
+  "version": "2.0.0",
+  "description": "AI-powered code review CLI with structured output and GitHub Actions integration using Groq API",
+  "main": "code-review.js",
+  "bin": {
+    "code-review": "./code-review.js"
+  },
+  "scripts": {
+    "test": "node code-review.js sample.js",
+    "test:json": "node code-review.js sample.js --format json",
+    "test:github": "node code-review.js sample.js --format github",
+    "test:export": "node code-review.js sample.js --export md"
+  },
+  "keywords": [
+    "code-review",
+    "ai",
+    "groq",
+    "llama",
+    "cli",
+    "static-analysis",
+    "security-scanner",
+    "github-actions",
+    "structured-output"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "features": [
+    "Structured output with schema enforcement",
+    "Severity-based classification (HIGH/MEDIUM/LOW)",
+    "Smart chunking for large files",
+    "GitHub Actions integration",
+    "Multiple output formats (terminal, JSON, markdown)",
+    "Export reports for documentation",
+    "Security vulnerability detection",
+    "Performance analysis",
+    "Best practices checking"
+  ],
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
